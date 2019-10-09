@@ -21,7 +21,7 @@ client.on("connect", function () {
         let topic = "niere/device/status";
         let st = "turned on";
         client.publish(topic,st);
-        // console.log("topic sent>>>");
+        console.log("topic sents>>>");
     }) 
     
     btnOff.addEventListener("click", function(event) {
