@@ -6456,7 +6456,7 @@ var setPrototypeOf = require("es5-ext/object/set-prototype-of")
   , contains       = require("es5-ext/string/#/contains")
   , d              = require("d")
   , Symbol         = require("es6-symbol")
-  , Iterator       = require("./");
+  , Iterator       = require("..");
 
 var defineProperty = Object.defineProperty, ArrayIterator;
 
@@ -6684,7 +6684,7 @@ module.exports = function (value) {
 var setPrototypeOf = require("es5-ext/object/set-prototype-of")
   , d              = require("d")
   , Symbol         = require("es6-symbol")
-  , Iterator       = require("./");
+  , Iterator       = require("..");
 
 var defineProperty = Object.defineProperty, StringIterator;
 
